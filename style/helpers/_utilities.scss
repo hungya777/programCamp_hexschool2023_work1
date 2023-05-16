@@ -1,0 +1,63 @@
+/* 字體-大小 */
+.fs {
+    &-s {
+        font-size: 14px;
+    }
+    &-base {
+        font-size: 16px;
+    }
+    &-m {
+        font-size: 20px;
+    }
+}
+
+/* 字體-粗細 */
+.fw {
+    &-regular {
+        font-weight: 400;
+    }
+    &-bold {
+        font-weight: 700;
+    }
+    &-black {
+        font-weight: 900;
+    }
+}
+
+/* 行高 */
+.lh {
+    &-sm {
+        line-height: 1.2;
+    }
+    &-base {
+        line-height: 1.5;
+    }
+}
+
+/* flex */
+.d-flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.justify-content {
+    &-between {
+        justify-content: space-between;
+    }
+}
+
+/* border */
+.border {
+    border: 1px solid #F2F2F2;
+    &-bottom {
+        border-bottom: 1px solid #F2F2F2;
+    }
+    &-radius {
+        border-radius: 16px;
+    }
+    &-radius-top {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+}
